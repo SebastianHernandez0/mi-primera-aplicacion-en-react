@@ -97,7 +97,7 @@ Los archivos generados estarán en la carpeta `dist/`
 
 ## Autor
 
-Creado como trabajo práctico para el curso de Programación Front End - Semana 4
+**Sebastián Hernández** - Creado como trabajo práctico para el curso de Programación Front End - Semana 4
 
 ## Licencia
 
