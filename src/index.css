@@ -1,0 +1,59 @@
+/* Variables CSS para temas */
+:root {
+  /* Tema Claro */
+  --light-bg: #f5f7fa;
+  --light-text: #2d3748;
+  --light-header-bg: #ffffff;
+  --light-border: #e2e8f0;
+
+  /* Tema Oscuro */
+  --dark-bg: #1a202c;
+  --dark-text: #e2e8f0;
+  --dark-header-bg: #2d3748;
+  --dark-border: #4a5568;
+
+  /* Colores comunes - default tema claro */
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --card-title-color: #2d3748;
+  --card-desc-color: #718096;
+
+  /* Toggle */
+  --toggle-bg: #edf2f7;
+  --toggle-text: #4a5568;
+  --toggle-border: #cbd5e0;
+}
+
+/* Tema Oscuro - redefinir variables cuando está activo */
+[data-theme="dark"] {
+  --card-bg: #2d3748;
+  --card-shadow: rgba(0, 0, 0, 0.3);
+  --card-title-color: #f7fafc;
+  --card-desc-color: #a0aec0;
+  --toggle-bg: #4a5568;
+  --toggle-text: #e2e8f0;
+  --toggle-border: #718096;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
